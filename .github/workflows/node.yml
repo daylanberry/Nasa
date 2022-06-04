@@ -16,5 +16,6 @@ jobs:
         node-version: '16'
     - name: Github action for npm
       run: npm install
+      run: npm run build --prefix client
     
 
