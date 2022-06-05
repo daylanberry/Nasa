@@ -9,6 +9,7 @@ jobs:
   build:
     env:
       CI: true
+      MONGO_URL: mongodb://localhost:mongo
     strategy:
       matrix:
         node: [14x, 16x]
